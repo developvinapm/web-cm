@@ -6,9 +6,14 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "build:css": "sass src/scss:dist/css --no-source-map",
+    "watch:css": "sass --watch src/scss:dist/css"
   },
   "dependencies": {
     "astro": "^5.0.3"
+  },
+  "devDependencies": {
+    "sass": "^1.82.0"
   }
 }

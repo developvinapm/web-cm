@@ -1,0 +1,25 @@
+---
+interface Props {
+	level: number;
+}
+const { level } = Astro.props;
+
+const Headlines: { [key: number]: { html: string } } = {
+	1: {
+		html: 'h1',
+	},
+	2: {
+		html: 'h2',
+	},
+	3: {
+		html: 'h3',
+	},
+	4: {
+		html: 'h4',
+	},
+}
+
+const Element = Headlines[level].html;
+
+---
+<Element> <slot /> </Element>
