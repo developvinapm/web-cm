@@ -1,11 +1,38 @@
 ---
-import arrow from '../assets/arrow.svg';
-import { Image } from 'astro:assets';
+import arrow from "../assets/arrow.svg";
+import DArriagada from "../assets/DArriagada.svg";
+import { Image } from "astro:assets";
 ---
 
 <div class="m-wrapper-team container">
-    <p class="text-small">Nuestros profesionales</p>
-    <h4>Conocenos</h4>  
-    <div class="m-wrapper-team__all-team">
-    </div>      
+  <p class="text-small">Nuestros profesionales</p>
+  <h4>Conócenos</h4>
+
+  <div class="m-wrapper-team__all-team">
+    <div class="m-wrapper-team__card">
+      <div class="m-wrapper-team__card-photo">
+        <Image src={DArriagada} alt="Fotografía Dauglas Arriagada" />
+      </div>
+      <div class="m-wrapper-team__card-section">
+        <p>Dauglas Arriagada</p>
+        <p>Médico General</p>
+        <a href="#" class="m-wrapper-team__card-button">
+          <p>Reservar hora</p>
+          <Image
+            src={arrow}
+            alt="Icono de llamada"
+            class="m-wrapper-team__card-button-icon"
+          />
+        </a>
+      </div>
+    </div>
+
+    <div></div>
+
+    <div></div>
+
+    <div></div>
+
+    <div></div>
+  </div>
 </div>

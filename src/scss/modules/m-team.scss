@@ -1,0 +1,45 @@
+.m-wrapper-team {
+    &__all-team {
+        margin-top: 39px;
+    }
+    &__card {
+        background-color: #F8F8F8;
+        width: 183px;
+        height: 353px;
+        border-radius: 20px;
+        &-photo{
+            background-color: #EDF8FD;            
+            border-radius: 20px 20px 0px 0px;
+            height: 220px;
+            display: flex;
+            align-items: flex-end;
+            img {
+                max-width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+        &-button {
+            display: inline-flex;
+            background: #FFFF;
+            padding: 5px;
+            border-radius: 10px;
+            align-items: center;
+            margin-top: 12px 0px 19px 0px;
+            gap: 10px;
+            &-icon {
+             margin: 0px;
+             background: #191D1E;
+             padding: 10px;
+             border-radius: 10px;
+            }
+        }
+        &-section{
+            margin: 0px 23px; 
+            p {
+                margin: 5px 0px;
+                font-size: 14px;;
+            }
+        }
+    }
+}
