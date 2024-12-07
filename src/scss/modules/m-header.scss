@@ -1,8 +1,17 @@
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+}
 .m-wrapper-header{
     display: flex;
     justify-content: space-between;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: sticky;
+    top: 0;
 
     &__left {
         display: flex;

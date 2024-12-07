@@ -28,16 +28,22 @@ p {
     font-weight: medium;
 }
 
-.p-small{
+.text-small{
     font-size: 0.875rem;
     font-weight: medium;
 }
-.p-caption{
+.text-caption{
     font-size: 0.75rem;
     font-weight: medium;
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #191D1E;
 }

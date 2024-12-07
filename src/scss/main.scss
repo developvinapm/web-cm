@@ -1,4 +1,8 @@
 @use 'abstracts';
 @use 'base';
 @use 'components';
-@use './modules/m-header.scss'
+@use './modules/m-header.scss';
+@use './modules/m-nav.scss';
+@use './modules/m-home.scss';
+@use './modules/m-items.scss';
+@use './modules/m-team.scss';

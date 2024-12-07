@@ -1,0 +1,24 @@
+.m-wrapper-items {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    padding: 55px;
+    &__all-items{
+        padding: 20px 0px 20px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 60px;
+        row-gap: 20px;
+    }
+    &__item {
+        display: inline-flex;
+        align-items: center;
+    }
+    &__icon{
+        margin: 5px 0px 5px 15px;
+        background: #8EED06;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}

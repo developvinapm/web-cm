@@ -1,13 +1,14 @@
 .c-button {
-    display: flex;
+    display: inline-flex;
     background: #191D1E;
-    padding: 10px 25px;
+    padding: 5px 20px;
     border-radius: 20px;
     color: white;
     align-items: center;
     &__icon{
         margin: 5px;
         margin-left: 20px;
+        margin-right: 0px;
         background: #8EED06;
         padding: 10px;
         border-radius: 10px;
