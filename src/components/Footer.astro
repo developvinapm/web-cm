@@ -1,36 +1,43 @@
 ---
 import logocm from "../assets/logocm.svg";
 import { Image } from "astro:assets";
+import email from "../assets/email.svg";
+import call from "../assets/call.svg";
+import facebook from "../assets/facebook.svg";
+import instagram from "../assets/instagram.svg";
 ---
 
 <footer>
   <div class="m-wrapper-footer container">
     <Image src={logocm} alt="Logo centro médico" />
 
-    <div class="m-wrapper-footer__two">
+    <div class="m-wrapper-footer__one">
       <a>
-        <p>Horarios</p>
+        <p class="m-wrapper-footer__one-title">Horarios</p>
       </a>
-      <a>
-        <p>Lunes a Viernes</p>
-        <p>9:00 a.m. - 6:00 p.m.</p>
-      </a>
-      <a>
-        <p>Miércoles</p>
-        <p>9:00 a.m. - 7:00 p.m.</p>
-      </a>
-      <a>
-        <p>Sábado, Domingo</p>
-        <p>Cerrado / Operativo en casos especiales</p>
-      </a>
+      <div class="m-wrapper-footer__one-text">
+        <a>
+          <p>Lunes a Viernes</p>
+          <p>9:00 a.m. - 6:00 p.m.</p>
+        </a>
+        <a>
+          <p>Miércoles</p>
+          <p>9:00 a.m. - 7:00 p.m.</p>
+        </a>
+        <a>
+          <p>Sábado, Domingo</p>
+          <p>Cerrado / Operativo en casos especiales</p>
+        </a>
+      </div>
     </div>
 
     <div>
       <a>
-        <p>Ubicación</p>
+        <p class="m-wrapper-footer__two-title">Ubicación</p>
       </a>
       <a>
-        <p>Parcela 154, Km 8, La Vara Puerto Montt</p>
+        <p>Parcela 154, Km 8, La Vara</p>
+        <p class="m-wrapper-footer__two-text">Puerto Montt</p>
       </a>
       <a>
         <p>Ver ubicación en google maps</p>
@@ -40,18 +47,27 @@ import { Image } from "astro:assets";
 
     <div>
       <a>
-        <p>Contacto</p>
+        <p class="m-wrapper-footer__two-title">Contacto</p>
       </a>
-      <a>
-        <img />
-        <p>cmvinapm@gmail.com</p>
-      </a>
-      <a>
-        <img />
-        <p>(56) 9 6618 2335</p>
-      </a>
+      <div>
+        <a class="m-wrapper-footer__three-section">
+          <Image src={email} alt="Icono de email" />
+          <p>cmvinapm@gmail.com</p>
+        </a>
+        <a class="m-wrapper-footer__three-section">
+          <Image src={call} alt="Icono de llamada" />
+          <p>(56) 9 6618 2335</p>
+        </a>
+      </div>
+      <div class="m-wrapper-footer__three-icons">
+        <Image src={facebook} alt="Icono de facebook" />
+        <Image src={instagram} alt="Icono de instagram" />
+      </div>
     </div>
   </div>
+  <div class="c-divider"></div>
+
+  <p>©2024, All right reserved.</p>
 </footer>
 
 <style></style>

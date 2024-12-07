@@ -1,4 +1,43 @@
 .m-wrapper-footer{
     display: flex;
     justify-content: space-between;
+    margin-top: 99px;
+    margin-bottom: 43px;
+
+    &__one {
+        &-title{
+            margin-bottom: 24px;
+        }
+        &-text {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    }
+
+    &__two {
+        &-title{
+            margin-bottom: 24px;
+        }
+        &-text {
+            margin-bottom: 36px;
+        }
+    }
+
+    &__three{
+        &-title{
+            margin-bottom: 28px;
+        }
+        &-section{
+            display: flex;
+            gap:7px;
+            margin-bottom: 12px;
+        }
+        &-icons {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 169px;
+            gap: 11px;
+        }
+    }
 }
