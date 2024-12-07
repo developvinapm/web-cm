@@ -1,3 +1,6 @@
+
+@use '../abstracts.scss' as m;
+
 header {
     background-color: white;
     position: sticky;
@@ -27,5 +30,9 @@ header {
         &-text{
             margin: 5px;
         }
+        @include m.md(){
+            display: none;
+        }
     }
+    
 }
