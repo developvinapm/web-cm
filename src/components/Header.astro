@@ -1,5 +1,8 @@
 ---
 import logocm from '../assets/logocm.svg';
+import navitagion from '../assets/navigation.svg';
+import call from '../assets/call.svg';
+import arrow from '../assets/arrow.svg';
 import { Image } from 'astro:assets';
 ---
 
@@ -8,20 +11,22 @@ import { Image } from 'astro:assets';
 		<Image src={logocm} alt='Logo centro médico' />
 		 
 		<div class="m-wrapper-header__left">
-			<a>
-				<p>Ubícanos</p>
+			<a class="m-wrapper-header__link">
+				<Image src={navitagion} alt='Icono de navegación' class="m-wrapper-header__link-icon" />
+				<p class="m-wrapper-header__link-text">Ubícanos</p>
 			</a>
-			<a>
-				<img>
-				<p>Ubícanos</p>
+			<a class="m-wrapper-header__link"> 
+				<Image src={call} alt='Icono de llamada' class="m-wrapper-header__link-icon" />
+				<p class="m-wrapper-header__link-text">Lllamar</p>
 			</a>
-			<a>
+			<a class="c-button">
 				<p>Reservar hora acá</p>
-				<img>
+				<Image src={arrow} alt='Icono de llamada' class="c-button__icon" />
 			</a>
 	
 		</div>
 	</div>
+	<div class="c-divider"></div>
 </header>
 
 <style>

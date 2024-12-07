@@ -1,0 +1,21 @@
+.c-button {
+    display: flex;
+    background: #191D1E;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    align-items: center;
+    &__icon{
+        margin: 5px;
+        margin-left: 20px;
+        background: #8EED06;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+.c-divider{
+    height: 1px;
+    width: 100%;
+    background: rgba(25, 29, 30, 0.1);
+}
