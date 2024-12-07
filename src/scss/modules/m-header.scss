@@ -2,4 +2,21 @@
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
+    margin-bottom: 16px;
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+    &__link{
+        display: flex;
+        margin: 0px 20px;
+        &-icon{
+            margin: 5px;
+        }
+        &-text{
+            margin: 5px;
+        }
+    }
 }
