@@ -27,6 +27,7 @@ h4 {
 }
 p {
     font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: medium;
 }
 
@@ -37,6 +38,10 @@ p {
 .text-caption{
     font-size: 0.75rem;
     font-weight: medium;
+}
+
+.text-bold{
+    font-weight: bold;
 }
 
 .container {

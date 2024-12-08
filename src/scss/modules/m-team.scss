@@ -1,12 +1,16 @@
 .m-wrapper-team {
+    padding-top: 70px;
     &__all-team {
         margin-top: 39px;
+        display: inline-flex;
+        gap: 15px;
+        flex-wrap: wrap;
     }
     &__card {
         background-color: #F8F8F8;
-        width: 183px;
-        height: 353px;
+        width: 210px;
         border-radius: 20px;
+        padding-bottom: 20px;
         &-photo{
             background-color: #EDF8FD;            
             border-radius: 20px 20px 0px 0px;
@@ -20,12 +24,12 @@
             }
         }
         &-button {
-            display: inline-flex;
+            display: flex;
+            justify-content: space-between;
             background: #FFFF;
-            padding: 5px;
+            padding: 5px 10px 5px 10px;
             border-radius: 10px;
             align-items: center;
-            margin-top: 12px 0px 19px 0px;
             gap: 10px;
             &-icon {
              margin: 0px;
@@ -37,8 +41,7 @@
         &-section{
             margin: 0px 23px; 
             p {
-                margin: 5px 0px;
-                font-size: 14px;;
+                margin: 10px 0px;
             }
         }
     }

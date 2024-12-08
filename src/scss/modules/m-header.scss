@@ -30,7 +30,7 @@ header {
         &-text{
             margin: 5px;
         }
-        @include m.md(){
+        @include m.lg(){
             display: none;
         }
     }

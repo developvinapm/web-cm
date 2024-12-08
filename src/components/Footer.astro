@@ -3,8 +3,6 @@ import logocm from "../assets/logocm.svg";
 import { Image } from "astro:assets";
 import email from "../assets/email.svg";
 import call from "../assets/call.svg";
-import facebook from "../assets/facebook.svg";
-import instagram from "../assets/instagram.svg";
 ---
 
 <footer>
@@ -14,49 +12,42 @@ import instagram from "../assets/instagram.svg";
     </div>
 
     <div class="m-wrapper-footer__one">
-      <a>
-        <p class="m-wrapper-footer__one-title">Horarios</p>
-      </a>
+      <p class= "m-wrapper-footer__one-title text-bold">Horarios</p>
       <div class="m-wrapper-footer__one-text">
-        <a>
+        <div>
           <p>Lunes a Viernes</p>
           <p>9:00 a.m. - 6:00 p.m.</p>
-        </a>
-        <a>
+        </div>
+        <div>
           <p>Miércoles</p>
           <p>9:00 a.m. - 7:00 p.m.</p>
-        </a>
-        <a>
+        </div>
+        <div>
           <p>Sábado, Domingo</p>
-          <p>Cerrado / Operativo en casos especiales</p>
-        </a>
+          <p>Cerrado (Abierto en operativos)</p>
+        </div>
       </div>
     </div>
 
     <div class="m-wrapper-footer__two">
-      <a>
-        <p class="m-wrapper-footer__two-title">Ubicación</p>
-      </a>
-      <a>
-        <p>Parcela 154, Km 8, La Vara</p>
-        <p class="m-wrapper-footer__two-text">Puerto Montt</p>
-      </a>
-      <a>
-        <a href="">Ver ubicación en google maps</a>
-        <a href="">Hablar con asistente virtual</a>
-      </a>
+      <div>
+        <p class="m-wrapper-footer__two-title text-bold">Ubicación</p>
+      </div>
+      <div>
+        <p>Parcela 154, Km 8, La Vara, Puerto Montt</p>
+      </div>
     </div>
 
     <div class="m-wrapper-footer__three">
       <a>
-        <p class="m-wrapper-footer__two-title">Contacto</p>
+        <p class="m-wrapper-footer__two-title text-bold">Contacto</p>
       </a>
       <div>
-        <a class="m-wrapper-footer__three-section">
+        <a href="mailto:cm@vinapm.cl" class="m-wrapper-footer__three-section">
           <Image src={email} alt="Icono de email" />
-          <p>cmvinapm@gmail.com</p>
+          <p>cm@vinapm.cl</p>
         </a>
-        <a class="m-wrapper-footer__three-section">
+        <a href="tel:56966182335" class="m-wrapper-footer__three-section">
           <Image src={call} alt="Icono de llamada" />
           <p>(56) 9 6618 2335</p>
         </a>
@@ -64,14 +55,14 @@ import instagram from "../assets/instagram.svg";
     </div>
   </div>
 
-  <p class="m-wrapper-footer__icons container">
+  <!-- <p class="m-wrapper-footer__icons container">
     <Image src={facebook} alt="Icono de facebook" />
     <Image src={instagram} alt="Icono de instagram" />
-  </p>
+  </p> -->
 
   <div class="c-divider"></div>
 
   <p class="m-wrapper-footer__last-text container">
-    ©2024, All right reserved.
+    ©2024, Todos los derechos reservados.
   </p>
 </footer>

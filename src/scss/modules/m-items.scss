@@ -1,22 +1,26 @@
+@use '../abstracts.scss' as m;
 .m-wrapper-items {
     margin-top: 70px;
-    margin-bottom: 70px;
     background-color: #F8F8F8;
     border-radius: 20px;
-    padding: 55px;
+    padding: 40px;
+
+    @include m.lg{
+        padding: 30px 20px 20px 30px;
+     }
+
     &__all-items{
-        padding: 20px 0px 20px 0px;
+        padding: 30px 0px 20px 0px;
         display: flex;
         flex-wrap: wrap;
-        column-gap: 60px;
-        row-gap: 20px;
+        gap: 30px;
     }
     &__item {
         display: inline-flex;
         align-items: center;
     }
     &__icon{
-        margin: 5px 0px 5px 15px;
+        margin: 5px 0px 5px 5px;
         background: #8EED06;
         padding: 10px;
         border-radius: 10px;
